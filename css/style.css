@@ -8,11 +8,11 @@ body {
 }
 
 .bg-profile {
-    background-color: #c7a693;
+    background-color: #7FFF00;
 }
 
 .cover-profile {
-	color: #856046;
+	color: #0000FF;
 }
 
 .cover-profile img.cover-image{
@@ -31,6 +31,72 @@ body {
     margin-top: 20px;
 }
 
+.nav-pills>li >a {
+    color: #000000s;
+}
+
+.nav-pills>li >a:hover {
+    color: #6A5ACD;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #FFD700;
+    background-color: #FF4500;
+}
+
+.bg-contact {
+    background-image: url("../images/background.png");
+}
+
+.contact {
+    border: 1px solid #FF00FF;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.header {
+  color: #FFFFFF;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.formicon {
+  font-size:25px;
+  color: #FFFFFF;
+}
+
+.address-text {
+  color: ##424242;
+  font-size: 16px;
+}
+
+hr {
+  padding: 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.map {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  line-height: 1.4;
+  color: ##0101DF;
+  font-size: 18px;
+  background-color: #FF0080;
+  padding: 25px 0px;
+}
+
+.socialicon {
+  font-size:20px;
+  color: ##FF0000;
+  padding-right: 5px;
+}
+
 @media (max-width:768px) {
 
 	.cover-profile-image {
@@ -40,23 +106,11 @@ body {
 	}
 	.cover-profile-text>h1 {
 		font-weight: 700;
-		font-size: 27px;
+    font-size:27px;
 	}
 	.cover-profile-text>h3 {
 		font-weight: 700;
-		font-size: 20px;
-	}
-	.mt-20 {
-		margin-top: 20px;
-	}
-	.nav-pills>li >a {
-		color: #fff;
+    font-size:20px;
 	}
 
-	@media (max-width: 768px) {
-		.nav-pills>li >a:hover {
-			color: #856046;
-		}
-
-		.nav-pills>li.active>a, .nav-pills>li.acyive>a:focus, .nav-pills
-
+}
